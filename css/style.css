@@ -110,3 +110,12 @@ section.float-right{
   width: 40%;
   margin-left: 4%;
 }
+#hidden-element {
+	background-color: #497E76;
+	padding: 10px;
+	margin-top: 10px;
+	display: none;
+}
+.hidden {
+	display: block;
+}
