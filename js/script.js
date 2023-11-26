@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function(){
 		const pageTitle = document.querySelector('.float-left h3');
 		const hiddenElement = document.getElementById('hidden-element');
 		pageTitle.addEventListener('click', function (){
-			console.log('clicked');
 			hiddenElement.classList.toggle('hidden');
 		});	
 	}
