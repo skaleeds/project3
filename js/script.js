@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		const hiddenElement = document.getElementById('hidden-element');
 		pageTitle.addEventListener('click', function (){
 			hiddenElement.classList.toggle('hidden');
+			sectionTitle.classList.toggle('text-white');
 		});	
 	}
 });
