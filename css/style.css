@@ -117,5 +117,5 @@ section.float-right{
 	display: none;
 }
 .hidden {
-	display: block;
+	display: block !important;
 }
