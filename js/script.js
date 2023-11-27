@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		
 	    pageTitle.forEach(currentTitle => {
 			const hiddenElementId = currentTitle.getAttribute('data-hidden-element-id');
-			const hiddenElement = documrnt.getElementById(hiddenElementId);
+			const hiddenElement = document.getElementById(hiddenElementId);
 			currentTitle.addEventListener('click', function (){
 				hiddenElement.classList.toggle('hidden');
 			}};
