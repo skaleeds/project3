@@ -119,3 +119,6 @@ section.float-right{
 .hidden {
 	display: block !important;
 }
+h3.clicked {
+	background-color: #102C54;
+}

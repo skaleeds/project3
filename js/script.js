@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
             
             title.addEventListener('click', function (){
                 hiddenElement.classList.toggle('hidden');
+				pageTitle.classList.toggle('clicked');
             });
         });
     }
