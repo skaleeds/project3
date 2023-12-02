@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', function(){
             });
         });
     }
-	$('.slider').slick({
-		autoplay: true,
-		autoplaySpeed: 1800,
+	$(document).ready(function(){
+		$('.slider').slick({
+		  autoplay: true,
+		  autoplaySpeed: 1800,
 	});
 });
