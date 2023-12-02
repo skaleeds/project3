@@ -122,7 +122,7 @@ section.float-right{
 h3[data-hidden-element-id].clicked {
 	background-color: #102C54;
 }
-@media screena and (max-width: 768px){
+@media screen and (max-width: 768px){
 	body{
 		font-size: 14px;
 	}
@@ -131,15 +131,17 @@ h3[data-hidden-element-id].clicked {
 		margin: 0;
 	}
 }
-@media screen and (max-width: 480px){
-	nav ul {
-		text-align: center;
-	}
-	nav li {
-		display: block;
-		margin: 10px 0;
-	}
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
 }
+
 .slick-slide(
   width: 300px;
   margin: 0 auto;
