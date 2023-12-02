@@ -8,8 +8,12 @@ document.addEventListener('DOMContentLoaded', function(){
             
             title.addEventListener('click', function (){
                 hiddenElement.classList.toggle('hidden');
-				pageTitle.classList.toggle('clicked');
+				title.classList.toggle('clicked');
             });
         });
     }
+	$('.slider').slick({
+		autoplay: true,
+		autoplaySpeed: 1800,
+	});
 });
