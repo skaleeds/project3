@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	  icon: 'media/marker.png',
 	});
 	
-	var infoBox = new google.maps.InfoWindow({
+	var infoBox = new google.maps.InfoBox({
 		content: '<div>This is the location of the IIT Tower.</div>',
 	});
 	
