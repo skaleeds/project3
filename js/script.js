@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function(){
 	  icon: 'media/marker.png',
 	});
 	
-	var infoBox = new google.maps.InfoBox({
-		content: '<div>This is the location of the IIT Tower.</div>,
+	var infoBox = new google.maps.InfoWindow({
+		content: '<div>This is the location of the IIT Tower.</div>',
 	});
 	
 	bounceLogo.addListener('click', function () {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 	
 	google.maps.event.addListener(infoBox, 'domready', function() {
-		var xBtn = document.getElementById('info-box-close')'
+		var xBtn = document.getElementById('info-box-close');
 		xBtn.addEventListener('click', function () {
 		  infoBox.close();
 		});
