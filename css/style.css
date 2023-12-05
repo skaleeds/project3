@@ -142,10 +142,10 @@ h3[data-hidden-element-id].clicked {
     }
 }
 
-.slick-slide(
+.slick-slide{
   width: 300px;
   margin: 0 auto;
-)
+}
 #map-iframe{
   width: 100%;
   max-width: 1000px;
