@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   };
 
-  var script = document.createElement('script');
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap';
-  script.defer = true;
-  script.async = true;
-  document.head.appendChild(script);
+var script = document.createElement('script');
+script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap';  // Corrected callback name
+script.defer = true;
+script.async = true;
+document.head.appendChild(script);
 
   var mapIframe = document.getElementById('map-iframe');
   mapIframe.src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&q=IIT+Tower+Chicago&center=41.8314923331667,-87.62722848123455";
