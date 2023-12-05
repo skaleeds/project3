@@ -146,3 +146,10 @@ h3[data-hidden-element-id].clicked {
   width: 300px;
   margin: 0 auto;
 )
+#map-iframe{
+  width: 1000px;
+  height: 500px;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
