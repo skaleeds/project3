@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
 var script = document.createElement('script');
-script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap';  // Corrected callback name
+script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap';
 script.defer = true;
 script.async = true;
 document.head.appendChild(script);
