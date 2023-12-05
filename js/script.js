@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', function(){
 		infoBox.open(map, bounceLogo);
 	});
 	
-	google.maps.event.addListener(infoBox, 'domready', function() {
-		var xBtn = document.getElementById('info-box-close');
-		xBtn.addEventListener('click', function () {
-		  infoBox.close();
-		});
-	});
+    google.maps.event.addListener(infoBox, 'domready', function() {
+      var xBtn = document.getElementById('info-box-close');
+      xBtn.addEventListener('click', function () {
+        infoBox.close();
+    });
+});
