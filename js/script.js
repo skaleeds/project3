@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', function(){
       });
   });
   
-  window.initMap = function () {
+  window.initmap = function () {
 	  var map = new google.maps.Map(document.getElementById('map'), {
 		  center: { lat: 41.8314923331667, lng: -87.62722848123455 },
 		  zoom: 8,
         });
-	
+  };
   
   var script = document.createElement('script');
   script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap';
